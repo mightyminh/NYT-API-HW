@@ -1,0 +1,52 @@
+header {
+	background-image: url(../background.png);
+	background-size: cover;
+	float: center;
+
+}
+
+@font-face {
+	font-family: 'Pokefont';
+	src: url(../PokemonSolid.ttf) format('truetype');
+		
+}
+
+@font-face {
+	font-family:'Ancient';
+	src: url(../Ancient.ttf) format('truetype');
+}
+
+head {
+	font-family: 'Ancient';
+}
+
+h1 {
+	font-family: 'Ancient';
+	float: center;
+	color: black;
+	font-size: 70px;
+	margin: 20px;
+	
+}
+
+h3 {
+	font-family: 'Pokefont';
+	color: #3164a6;
+
+
+}
+
+div {
+	font-family: 'Pokefont';
+	margin: 40px
+	text-align : left;
+}
+
+#div.results-display {
+	float: left;
+}
+
+footer {
+	padding: 20px;
+}
+
